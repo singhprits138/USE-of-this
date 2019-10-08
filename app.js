@@ -14,7 +14,7 @@ class NameGenerator {
         this.currentIndex =0;
       // btn.addEventListener('click', this.addName.bind(this)); // alternative
         btn.addEventListener('click', () => {
-             // console.log(this);
+             console.log(this);
             this.addName();
         });
     }
