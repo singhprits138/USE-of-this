@@ -12,11 +12,11 @@ class NameGenerator {
         const btn = document.querySelector('button');
         this.names = ["Max","Manu","Sahil","Siddhu"]
         this.currentIndex =0;
-       btn.addEventListener('click', this.addName.bind(this)); // alternative
-        // btn.addEventListener('click', () => {
-        //      // console.log(this);
-        //     this.addName();
-        // });
+      // btn.addEventListener('click', this.addName.bind(this)); // alternative
+        btn.addEventListener('click', () => {
+             // console.log(this);
+            this.addName();
+        });
     }
 
     addName() {
